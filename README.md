@@ -10,8 +10,11 @@ This **AutoHotkey (AHK) script** allows you to quickly open **Visual Studio Code
 ## 🛠 Installation & Usage
 1. **Install AutoHotkey** (if not already installed) – [Download AHK](https://www.autohotkey.com/)  Install the Version 1.1.37.02
 2. **Download the script** from this repository.  
-3. **Run the script** (double-click the `.ahk` file).  
-4. **Press `F12`** in File Explorer – VS Code will open in the current folder!  
+3. **Change the Path** open the .ahk file and change the path for your application
+![path](images/path.png)
+4. **Run the script** (double-click the `.ahk` file).  
+5. **Press `F12`** in File Explorer – VS Code will open in the current folder!  
+
 
 ## 📌 Requirements
 - **Windows** with [AutoHotkey](https://www.autohotkey.com/) installed  
