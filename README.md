@@ -1,30 +1,47 @@
-# 🚀 Open VS Code from File Explorer with AutoHotkey
+# 🚀 Open VS Code & Git Bash from File Explorer with AutoHotkey
 
-This **AutoHotkey (AHK) script** allows you to quickly open **Visual Studio Code (VS Code)** in the current File Explorer directory by pressing **F12**.
+This **AutoHotkey (AHK) script** allows you to quickly open either **Visual Studio Code** or **Git Bash** in the **current File Explorer directory** using simple hotkeys.
+
+---
 
 ## 🔹 Features
-- ✅ Open VS Code in the currently active File Explorer folder  
-- ✅ Uses **COM objects** for reliable path detection  
-- ✅ Enhances workflow efficiency for developers  
+- ✅ **F12** → Open **VS Code** in the active File Explorer folder  
+- ✅ **Right Shift** → Open **Git Bash** in the active File Explorer folder  
+- ✅ Uses **COM objects** for accurate path extraction  
+- ✅ Minimal setup – super useful for developers!
+
+---
 
 ## 🛠 Installation & Usage
-1. **Install AutoHotkey** (if not already installed) – [Download AHK](https://www.autohotkey.com/)  Install the Version 1.1.37.02
-2. **Download the script** from this repository.  
-3. **Change the Path** open the .ahk file and change the path for your application
-![path](images/path.png)
-4. **Run the script** (double-click the `.ahk` file).  
-5. **Press `F12`** in File Explorer – VS Code will open in the current folder!  
 
+1. **Install AutoHotkey v1.1.37.02** – [Download here](https://www.autohotkey.com/)  
+2. **Download this script** from the repository  
+3. **Edit Paths**:  
+   Open the `.ahk` file in any editor and update the paths to your local installations:
+   - `VS Code` path (usually in `AppData`)
+   - `Git Bash` path (usually in `Program Files`)
+   ![path](images/path.png)
+4. **Run the script** (double-click the `.ahk` file)  
+5. **Usage**:
+   - ▶️ Press **F12** in File Explorer → Opens folder in **VS Code**
+   - ▶️ Press **Right Shift** in File Explorer → Opens folder in **Git Bash**
+
+---
 
 ## 📌 Requirements
-- **Windows** with [AutoHotkey](https://www.autohotkey.com/) installed  
-- **VS Code installed** and added to the system PATH  
-  - If `code` is not recognized, open VS Code and press:  
-    - `Ctrl + Shift + P` → Type `"Shell Command"` → Select **"Install 'code' command in PATH"**  
+
+- **Windows** with [AutoHotkey v1](https://www.autohotkey.com/) installed  
+- **Visual Studio Code** installed  
+  - Add `code` to PATH:
+    - `Ctrl + Shift + P` → Search `"Shell Command"` → Select **“Install 'code' command in PATH”**
+- **Git for Windows** (includes Git Bash)
+
+---
+
 
 ## 🎯 Notes
 - Run AutoHotkey with **Administrator privileges** if needed.  
-- Customize the script to use a different key if `F12` is already in use.  
+- Customize the script to use a different key if `F12` is already in use or add keys to your preference
 
 ---
 
